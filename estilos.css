@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: helvetica;
+    color: #333;
+}
+.ancho{
+    width: 1200px;
+    margin: auto;
+    /* border: 1px red solid; */
+}
+.cabecera{
+    text-align: center;
+    padding: 10px;
+}
+.cabecera img{
+    width: 150px;
+}
+.menu{
+    text-align: center;
+    padding: 15px 30px;
+    background-color: #800000;
+    margin-bottom: 10px;
+}
+.menu a{
+    border: 1px white solid;
+    padding: 10px;
+    border-radius:5px ;
+    text-decoration: none;
+    color: white;
+    margin-right:5px ;
+}
+.menu a:hover{
+    background-color: transparent;
+    background-color: white;
+    color: #800000;
+}
+.contenido{
+    padding: 30px 10px;
+    border: 1px lightslategray solid;
+    margin-bottom:10px ;
+    height: 350px;
+}
+.contenido h1{
+    /* border: 1px red solid; */
+    margin-bottom: 20px;
+}
+.pie{
+    text-align: center;
+    background-color: #ececec;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.formulario{
+    /* border: 1px red solid; */
+    padding: 20px;
+    text-align: right;
+    display: inline-block
+}
+input{
+    margin-bottom:10px ;
+}
+.btn1{
+    text-align: center;
+    width: 173px;
+    background-color: #cc9900;
+    color: white;
+    border: 0;
+    display: inline-block;
+    padding: 5px;
+}
+.negritas{
+    font-weight: bold;
+    color: red;
+}
+.credencial{
+    border: 1px black solid;
+    width: 500px;
+    margin: auto;
+}
+
+.credencial td{
+    border: 1px black solid;
+    padding: 5px;
+}
+.foto_credencial{
+    width: 100px;
+    background-color: #ececec;
+}
+.nombre_credencial{
+    color: #cc9900;
+    font-weight:bold ;
+    text-transform: uppercase;
+}
+.matricula_credencial{
+    color: #800000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carrera_credencial{
+    text-transform: uppercase;
+    font-weight: bold;
+}
